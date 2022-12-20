@@ -1,0 +1,57 @@
+└─$ history
+    1  whoami
+    2  exit
+    3  ls -l
+    4  exit
+    5  ls -l
+    6  cat brighton
+    7  echo upstate > newyork
+    8  echo hi >> brighton
+    9  exit
+   10  echo upstate > newyork
+   11  echo hi >> brighton
+   12  cat newyork
+   13  cat brighton
+   14  exit
+   15  cd sgid
+   16  touch anemptyfile
+   17  ls -l
+   18  exit
+   19  echo hello > file2
+   20  cat file2
+   21  cat file1
+   22  echo more >> file2
+   23  cat file2
+   24  echo more >> file1
+   25  rm file2
+   26  rm file1
+   27  exit
+   28  ./pizza
+   29  exit
+   30  ./pizza
+   31  sudo addgroup pentesters1
+   32  sudo addgroup pentesters2
+   33  usermod -g [new primary group name] [username]
+   34  sudo usermod -a -G pentesters1,pentesters2 jsw
+   35  usermod -a -G [group1],[group2],[group3] [username]
+   36  grep pentesters /etc/group
+   37  groups jsw
+   38  cat /etc/group
+   39  sudo usermod -G pentesters1 jsw
+   40  groups jsw
+   41  sudo usermod -a -G pentesters1, pentesters2 jsw
+   42  sudo gpasswd -d jsw pentesters2
+   43  groups jsw
+   44  sudo adduser alice
+   45  sudo deluser alice
+   46  sudo addgroup cryptographers
+   47  sudo delgroup cryptographers
+   48  cd /
+   49  ls -a
+   50  ls -F
+   51  ls -R
+   52  ls -R|more
+   53  ls -R |less
+   54  clear
+   55  find / -name ping 2>&1 | grep -v "Permission denied"
+   56  history
